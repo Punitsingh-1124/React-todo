@@ -15,6 +15,9 @@ Overview of Your Code
 5 Show/Hide Completed Tasks: Filter out completed tasks using the Show Finished toggle.
 
 6 Persistent Storage: Todos are saved in localStorage for persistence across reloads.
+![Screenshot 2024-11-21 135048](https://github.com/user-attachments/assets/e32540ac-1848-43dc-8c5c-b127e4f106a9)
+
+
 
 #Tailwind CSS Highlights
 
@@ -24,6 +27,9 @@ Overview of Your Code
 2 Stylish Buttons: Buttons have hover (hover:bg-violet-950) and disabled (disabled:bg-violet-600) states.
 
 3 Input Field: Fully styled with rounded-full, px-5 py-1, and w-full.
+
+![Screenshot 2024-11-21 135321](https://github.com/user-attachments/assets/a45626da-d720-4146-bff3-46b9403e186c)
+
 
 #Functionality
 
