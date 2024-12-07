@@ -1,13 +1,10 @@
 import { useState, useEffect } from 'react'
-
-
 import { MdDeleteForever } from "react-icons/md";
 import { FaEdit } from "react-icons/fa";
 import Navbar from './components/Navbar'
 import { v4 as uuidv4 } from 'uuid';
 
 function App() {
-
   const [todo, settodo] = useState("")
   const [todos, settodos] = useState([])
   const [showFinished, setshowFinished] = useState(true)
@@ -63,8 +60,6 @@ function App() {
     settodos(newTodos)
     saveToLs()
   }
-
-
   return (
     <>
       <Navbar />
@@ -84,8 +79,6 @@ function App() {
         <div className="todos">
           {todos.length === 0 && <div className='m-5'>No Todos display</div>}
           {todos.map(item => {
-
-
             return (showFinished || !item.isCompleted) && <div key={item.id} className="todo flex  my-3 justify-between">
               <div className='flex gap-5'>
                 <input name={item.id} onChange={handleCheckbox} type="checkbox" checked={item.isCompleted} id='' />
